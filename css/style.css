@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstview{
+    background: linear-gradient(rgba(82, 4, 85, 0.8), rgb(82, 4, 85) 100%),url('../img/havy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 45em;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.headboard .image{
+    border: 5px solid #ffd700;
+    border-radius: 243px;
+    width: 245px;
+    height: 245px;
+    /* background: linear-gradient(rgba(82, 4, 85, 0.8), rgb(82, 4, 85) 100%),url('../img/havy.jpg'); */
+    background-image: url(../img/havy.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35em;
+}
+.headboard .container{
+    margin-left: 35em;
+    width: 50%;
+}
+.form{
+    margin-left: 34em;
+    margin-top: 50px;
+}
+.search{
+    border-radius: 5px;
+    border: none;
+    padding-left: 23px;
+    padding: 13px;
+}
+.submit{
+    border-radius: 5px;
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    background: transparent;
+    padding: 13px;
+}
+.aboutmeparagraph{
+    text-align: center;
+}
+.btn:active{
+    transform: scale(0.55);
+}
+.img{
+    margin-left: 25em;
+}
+.card{
+    margin-top: 23px;
+}
+@media only screen and (max-width: 375px) {
+    .firstview{
+        background: linear-gradient(rgba(82, 4, 85, 0.8), rgb(82, 4, 85) 100%),url('../img/havy.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 45em;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+    .headboard .image{
+        margin-left: 65px;
+    }
+    .headboard .container{
+        margin-left: 65px;
+        width: 50%;
+    }
+    .form{
+        margin-left: 65px;
+    }
+    .search{
+        border-radius: 23px;
+        border: none;
+        padding-left: 23px;
+        padding: 5px;
+    }
+    .submit{
+        border-radius: 5px;
+        border: 1px solid #ffc107;
+        color: #ffc107;
+        background: transparent;
+        padding: 5px;
+    }
+    .aboutmeparagraph{
+        margin-left: 65px;
+    }
+    .img{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .headboard .image{
+        margin-left: 85px;
+    }
+    .headboard .container{
+        margin-left: 85px;
+        width: 50%;
+    }
+    .form{
+        margin-left: 85px;
+    }
+    .search{
+        border-radius: 23px;
+        border: none;
+        padding-left: 23px;
+        padding: 5px;
+    }
+    .submit{
+        border-radius: 5px;
+        border: 1px solid #ffc107;
+        color: #ffc107;
+        background: transparent;
+        padding: 5px;
+    }
+    .aboutmeparagraph{
+        margin-left: 85px;
+    }
+}
